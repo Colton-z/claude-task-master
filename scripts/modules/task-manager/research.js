@@ -358,6 +358,8 @@ async function performResearch(
 function buildResearchSystemPrompt(detailLevel, projectRoot) {
 	const basePrompt = `You are an expert AI research assistant helping with a software development project. You have access to project context including tasks, files, and project structure.
 
+请使用中文生成所有研究结果和回答。
+
 Your role is to provide comprehensive, accurate, and actionable research responses based on the user's query and the provided project context.`;
 
 	const detailInstructions = {

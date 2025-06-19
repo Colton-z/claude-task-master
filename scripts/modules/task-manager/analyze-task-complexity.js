@@ -401,7 +401,7 @@ async function analyzeTaskComplexity(options, context = {}) {
 			gatheredContext
 		);
 		const systemPrompt =
-			'You are an expert software architect and project manager analyzing task complexity. Respond only with the requested valid JSON array.';
+			'You are an expert software architect and project manager analyzing task complexity. 请使用中文生成所有分析结果和建议。 Respond only with the requested valid JSON array.';
 
 		let loadingIndicator = null;
 		if (outputFormat === 'text') {

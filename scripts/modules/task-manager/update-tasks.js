@@ -369,6 +369,8 @@ async function updateTasks(
 You will be given a set of tasks and a prompt describing changes or new implementation details.
 Your job is to update the tasks to reflect these changes, while preserving their basic structure.
 
+请使用中文生成所有任务标题、描述和详细信息。
+
 Guidelines:
 1. Maintain the same IDs, statuses, and dependencies unless specifically mentioned in the prompt
 2. Update titles, descriptions, details, and test strategies to reflect the new information

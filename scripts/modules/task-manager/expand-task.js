@@ -62,6 +62,8 @@ function generateMainSystemPrompt(subtaskCount) {
 	return `You are an AI assistant helping with task breakdown for software development.
 You need to break down a high-level task into ${subtaskCount} specific subtasks that can be implemented one by one.
 
+请使用中文生成所有任务标题、描述和详细信息。
+
 Subtasks should:
 1. Be specific and actionable implementation steps
 2. Follow a logical sequence
