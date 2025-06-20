@@ -232,6 +232,8 @@ Current Subtask Details (for context only):\n${subtask.details || '(No existing 
 
 			const systemPrompt = `You are an AI assistant helping to update a subtask. You will be provided with the subtask's existing details, context about its parent and sibling tasks, and a user request string.
 
+请使用中文生成所有任务标题、描述和详细信息。
+
 Your Goal: Based *only* on the user's request and all the provided context (including existing details if relevant to the request), GENERATE the new text content that should be added to the subtask's details.
 Focus *only* on generating the substance of the update.
 

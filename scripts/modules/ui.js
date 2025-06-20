@@ -1921,6 +1921,8 @@ function generateComplexityAnalysisPrompt(tasksData) {
 	const defaultSubtasks = getDefaultSubtasks(null); // Use the getter
 	return `Analyze the complexity of the following tasks and provide recommendations for subtask breakdown:
 
+请使用中文生成所有分析结果和建议。
+
 ${tasksData.tasks
 	.map(
 		(task) => `
